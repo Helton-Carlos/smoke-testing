@@ -246,6 +246,11 @@
     "@vue/compiler-dom" "3.2.40"
     "@vue/shared" "3.2.40"
 
+"@vue/devtools-api@^6.1.4":
+  "integrity" "sha512-9WCRwdROJvWcHAdyrR7SZMM/qUvllDZnpndHXokThkUsjnJ2xe4/pvsH9FZrxFe22L+JmDKczL79HjLJ7DK9rg=="
+  "resolved" "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.4.3.tgz"
+  "version" "6.4.3"
+
 "@vue/reactivity-transform@3.2.40":
   "integrity" "sha512-HQUCVwEaacq6fGEsg2NUuGKIhUveMCjOk8jGHqLXPI2w6zFoPrlQhwWEaINTv5kkZDXKEnCijAp+4gNEHG03yw=="
   "resolved" "https://registry.npmjs.org/@vue/reactivity-transform/-/reactivity-transform-3.2.40.tgz"
@@ -1179,6 +1184,13 @@
     "tinyspy" "^1.0.2"
     "vite" "^2.9.12 || ^3.0.0-0"
 
+"vue-router@^4.1.5":
+  "integrity" "sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ=="
+  "resolved" "https://registry.npmjs.org/vue-router/-/vue-router-4.1.5.tgz"
+  "version" "4.1.5"
+  dependencies:
+    "@vue/devtools-api" "^6.1.4"
+
 "vue-tsc@^0.40.4":
   "integrity" "sha512-xzuN3g5PnKfJcNrLv4+mAjteMd5wLm5fRhW0034OfNJZY4WhB07vhngea/XeGn7wNYt16r7syonzvW/54dcNiA=="
   "resolved" "https://registry.npmjs.org/vue-tsc/-/vue-tsc-0.40.13.tgz"
@@ -1187,7 +1199,7 @@
     "@volar/vue-language-core" "0.40.13"
     "@volar/vue-typescript" "0.40.13"
 
-"vue@^3.0.1", "vue@^3.2.25", "vue@^3.2.37", "vue@>= 3", "vue@3.2.40":
+"vue@^3.0.1", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.37", "vue@>= 3", "vue@3.2.40":
   "integrity" "sha512-1mGHulzUbl2Nk3pfvI5aXYYyJUs1nm4kyvuz38u4xlQkLUn1i2R7nDbI4TufECmY8v1qNBHYy62bCaM+3cHP2A=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.40.tgz"
   "version" "3.2.40"
