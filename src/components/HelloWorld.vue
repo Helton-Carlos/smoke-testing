@@ -1,8 +1,7 @@
 <template>
-  <div>
-    <p>Times clicked: {{ count }}</p>
-    <button @click="increment">increment</button>
-  </div>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
 </template>
 
 <script setup lang="ts">
