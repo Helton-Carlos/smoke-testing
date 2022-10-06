@@ -4,7 +4,7 @@ const routes = [
     path: "/",
     component: () => import('../pages/Home.vue'),
     meta: {
-        requiresAuth: true,
+      requiresAuth: true,
     }
   },
   {
