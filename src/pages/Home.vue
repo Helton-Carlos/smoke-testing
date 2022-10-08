@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import STInputVue from '../components/STInput.vue';
+import STInputVue from '../components/STInput/STInput.vue';
 </script>
 
 <template>

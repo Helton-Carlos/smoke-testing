@@ -11,7 +11,6 @@ const routes = ref<routes[]>([
   { router: "/about", name: "About" }
 ]);
 
-
 </script>
   
 <template>
@@ -21,7 +20,7 @@ const routes = ref<routes[]>([
         <h1>Smoke testing</h1>
       </div>
       <div>
-        <router-link v-for="route in routes" :key="route.router" :to="route.router" class="px-2 hover:text-cyan-200">{{route.name}}</router-link>
+        <router-link v-for="route in routes" :key="route.router" :to="route.router" class="px-2 hover:text-cyan-200" data-testid="routes">{{route.name}}</router-link>
       </div>
     </div>
   </div>

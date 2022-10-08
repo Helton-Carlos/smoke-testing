@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import STnav from './components/STnav.vue';
+import STnav from './components/STnav/STnav.vue';
 </script>
 
 <template>
