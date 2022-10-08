@@ -1,5 +1,9 @@
+<script setup lang="ts">
+import STInputVue from '../components/STInput.vue';
+</script>
+
 <template>
-  <h1 class="text-3xl font-bold underline">
-    home
-  </h1>
+ <div>
+  <STInputVue />
+ </div>
 </template>

@@ -1,10 +1,10 @@
 <script setup lang="ts">
+import STnav from './components/STnav.vue';
 </script>
 
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <STnav />
+  <div class="w-4/5 mx-auto">
+    <router-view />
   </div>
-  <router-view />
 </template>
