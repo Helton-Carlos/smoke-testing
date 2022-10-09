@@ -1,5 +1,5 @@
 import STinput from './STinput.vue'
-import { render, fireEvent, } from '@testing-library/vue'
+import { render } from '@testing-library/vue'
 
 describe("STinput component testing", () => {
   test('STinput Render', () => {
