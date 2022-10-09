@@ -12,6 +12,6 @@ function pesquisar(){
   <div class="my-4">
     <input type="text" id="first_name"
       class="block w-full px-4 py-1 text-indico-700 bg-white border rounded-md focus:border-indico-400 focus:ring-indico-300 focus:outline-none focus:ring focus:ring-opacity-40"
-      placeholder="Estou procurando?" v-model="inputs" @keyup.enter="pesquisar()" required>
+      placeholder="Estou procurando?" v-model="inputs" @keyup.enter="pesquisar()" required data-testid="pesquisa">
   </div>
 </template>

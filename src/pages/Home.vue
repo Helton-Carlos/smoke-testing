@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import STInputVue from '../components/STInput/STInput.vue';
+import STinput from '../components/STinput/STinput.vue';
 </script>
 
 <template>
  <div>
-  <STInputVue />
+  <STinput />
  </div>
 </template>
