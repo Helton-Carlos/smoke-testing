@@ -8,6 +8,13 @@ const routes = [
     }
   },
   {
+    path: "/contact",
+    component: () => import('../pages/Contact.vue'),
+    meta: {
+      requiresAuth: true,
+    }
+  },
+  {
     path: "/:catchAll(.*)",
     component: () => import('../pages/NotFound.vue'),
   },

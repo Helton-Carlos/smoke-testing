@@ -8,7 +8,7 @@ interface routes {
 
 const routes = ref<routes[]>([
   { router: "/", name: "Home" },
-  { router: "/about", name: "About" }
+  { router: "/contact", name: "Contact" }
 ]);
 
 </script>
