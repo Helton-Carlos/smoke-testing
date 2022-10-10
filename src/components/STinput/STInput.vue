@@ -15,5 +15,5 @@ function pesquisar(){
       placeholder="Estou procurando?" v-model="inputs" @keyup.enter="pesquisar()" required>
    
     <button class="mx-2 bg-transparent hover:bg-sky-700 text-sky-700 font-semibold hover:text-white py-2 px-4 border border-sky-700 hover:border-transparent rounded" @click="pesquisar()">Buscar</button>
- </div>
+  </div>
 </template>
