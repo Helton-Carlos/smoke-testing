@@ -1,5 +1,5 @@
 import STinput from './STinput.vue'
-import { render } from '@testing-library/vue'
+import { render, fireEvent } from '@testing-library/vue'
 
 describe("STinput component testing", () => {
   test('STinput Render', () => {
@@ -9,9 +9,13 @@ describe("STinput component testing", () => {
   })
 
   test('STinput Input', async () => {
-    const { queryByTestId } = render(STinput)
+    const { getByPlaceholderText, getByText } = render(STinput)
 
-    const input = queryByTestId('pesquisa')
+    const input = getByPlaceholderText('Estou procurando?')
+    const button = getByText('Buscar')
+
+    await fireEvent.update(input, "teste")
+    await fireEvent.click(button)
 
     expect(input).toBeDefined()
   })
