@@ -1,17 +1,11 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-
-interface produtos {
+interface IProdutos {
   produto?: string,
   color?: string,
   preco?: number,
 }
 
-const produtos = ref<produtos[]>([
-  { produto: "Camisa Adidas", color: "Black", preco: 55.99 },
-  { produto: "Camisa Nike", color: "Black", preco: 77.99 }
-]);
-
+defineProps<{ produtos:IProdutos[] }>()
 </script>
 
 <template>
