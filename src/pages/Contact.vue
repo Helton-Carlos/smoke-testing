@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import STinput from '../components/STinput/STinput.vue';
+import STtable from '../components/STtable/STtable.vue';
 </script>
 
 <template>
  <div>
-  <STinput />
+  <STtable />
  </div>
 </template>
