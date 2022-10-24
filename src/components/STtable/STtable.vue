@@ -1,4 +1,11 @@
 <script setup lang="ts">
+
+defineProps({
+  name: String,
+  phone: String,
+  link: String,
+})
+
 </script>
 
 <template>
@@ -23,11 +30,11 @@
               </thead>
               <tbody class="bg-white divide-y text-white dark:bg-gray-800">
                 <tr class="text-white">
-                  <td class="py-4 px-6 text-sm font-medium  text-white whitespace-nowrap">Helton</td>
-                  <td class="py-4 px-6 text-sm font-medium  text-white whitespace-nowrap">(75) 98866-9858
+                  <td class="py-4 px-6 text-sm font-medium  text-white whitespace-nowrap">{{name}}</td>
+                  <td class="py-4 px-6 text-sm font-medium  text-white whitespace-nowrap">{{phone}}
                   </td>
                   <td class="py-4 px-6 text-sm font-medium  text-blue-200 whitespace-nowrap"><a
-                      href="https://www.linkedin.com/in/helton-brito-856ba516b/">Helton Brito</a></td>
+                      :href="link" target="_blank" rel="noopener noreferrer">Helton Brito</a></td>
                 </tr>
               </tbody>
             </table>
